@@ -12,21 +12,10 @@ data/ contains empirical data used in this project
 
 ## Reproduce Results
 
-1.  Download all files from this repository, click "<> Code" and then click "Download Zip"
-
-2.  Open your R IDE (for example R Studio or Visual Studio Code)
-
-3.  In your R IDE, set your working directory to the folder you downloaded by running `setwd()` with the path of the folder you download.
-
-4.  Run the code chunk below to use all packages used within this repository
-
 ``` r
 install.packages("renv")
 renv::restore()
 ```
-## Alternative to step 4: 
-
-5. This code chunk below can be run if step 4 doesn't work
 
 ``` r
 install.packages(c("metRology","MASS","mvtnorm","mombf","fredr","tidyr","tibble","tidyverse","","igraph","grid","png","gridExtra","dbplyr","sn","ggplot2","pROC","huge","forecast","purrr","ggnetwork","maps","ggraph","tseries"))
